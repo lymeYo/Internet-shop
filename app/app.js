@@ -85,11 +85,6 @@ function renderPage() {
          let menuElems = Array.from(document.querySelector('.upper-menu').querySelectorAll('*'))
          menuElems.forEach(elem => elem.className = elem.className + '-burger');
          document.querySelector('.header-content__menu-burger').style.display = 'block';
-         // document.querySelector('.') = pointerTouchClass + 'nav-assortment';
-         // document.querySelector('.') = pointerTouchClass + 'container';
-         // document.querySelector('.') = pointerTouchClass + 'nav-assortment-list';
-         // document.querySelector('.') = pointerTouchClass + 'nav-assortment-item';
-         // document.querySelector('.') = pointerTouchClass + 'nav-assortment-item-text';
       }
 
    }
