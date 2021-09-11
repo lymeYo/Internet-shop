@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Drop list</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="/app/cart/cart.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/Draggable.min.js"></script>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <div class="header-content">
+            <div class="header-content__menu-burger">
+               <span class="header-content__burger-line"></span>
+            </div>
+            <div class="header-content__logo"><img src="/app/img/aditii_3.png" alt=""></div>
+            <div class="header-content__search">
+               <input type="text" class="header-content__input-search">
+               <span class="search-icon"><img src="/app/img/loup_.png.png" alt=""></span>
+            </div>
+            <div class="header-content__cart">
+               <span class="header-content__cart-price cart-count" id="cart-count"></span>
+               <img src="/app/img/shape_2_15.png" alt="" id="cart-open-icon">
+               <span class="header-content__cart-price" id="cart-price">$0</span>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main class="main">
+      <nav class="upper-menu">
+         <!-- <div class="nav-assortment-burger">
+            <ul class="nav-assortment-list-burger">
+               <li class="nav-assortment-item-burger"><span class="nav-assortment-item-text-burger">Home</span></li>
+               <li class="nav-assortment-item-burger"><span class="nav-assortment-item-text-burger">Sale</span></li>
+               <li class="nav-assortment-item-burger"><span class="nav-assortment-item-text-burger">Handbags</span></li>
+               <li class="nav-assortment-item-burger"><span class="nav-assortment-item-text-burger">Wallets</span></li>
+               <li class="nav-assortment-item-burger"><span class="nav-assortment-item-text-burger">Accessories</span></li>
+               <li class="nav-assortment-item-burger"><span class="nav-assortment-item-text-burger">Mens Store</span></li>
+               <li class="nav-assortment-item-burger"><span class="nav-assortment-item-text-burger">Shoes</span></li>
+               <li class="nav-assortment-item-burger"><span class="nav-assortment-item-text-burger">Vintage</span></li>
+               <li class="nav-assortment-item-burger"><span class="nav-assortment-item-text-burger">Services</span></li>
+               <li class="nav-assortment-item-burger"><span class="nav-assortment-item-text-burger">Contact us</span></li>
+            </ul>
+         </div> -->
+         <div class="nav-assortment">
+            <div class="container ">
+               <ul class="nav-assortment-list">
+                  <li class="nav-assortment-item"><span class="nav-assortment-item-text">Home</span></li>
+                  <li class="nav-assortment-item"><span class="nav-assortment-item-text">Sale</span></li>
+                  <li class="nav-assortment-item"><span class="nav-assortment-item-text">Handbags</span></li>
+                  <li class="nav-assortment-item"><span class="nav-assortment-item-text">Wallets</span></li>
+                  <li class="nav-assortment-item"><span class="nav-assortment-item-text">Accessories</span></li>
+                  <li class="nav-assortment-item"><span class="nav-assortment-item-text">Mens Store</span></li>
+                  <li class="nav-assortment-item"><span class="nav-assortment-item-text">Shoes</span></li>
+                  <li class="nav-assortment-item"><span class="nav-assortment-item-text">Vintage</span></li>
+                  <li class="nav-assortment-item"><span class="nav-assortment-item-text">Services</span></li>
+                  <li class="nav-assortment-item"><span class="nav-assortment-item-text">Contact us</span></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="total-slider">
+         <div class="slider-swipe-prev"></div>
+         <div class="slider-swipe-next"></div>
+         <div class="container">
+            <div class="shop-slider">
+               <div class="shop-slide">
+                  <div class="shop-slide__signboard">
+                     <div class="shop-slide__signboard-wrapper"><img src="/app/img/slider_img-1.png" alt=""></div>
+                  </div>
+                  <div class="shop-slide__content">
+                     <div class="shop-slide__title">Cowhide <br> Standard Crew</div>
+                     <div class="shop-slide__text">White coloured, short-sleeved, printed T-shirt for men by Levi's.
+                        This
+                        crew-neck T-shirt is made of organic cotton and comes in a regular fit.</div>
+                     <button class="shop-slide__button">BUY NOW</button>
+                  </div>
+               </div>
+               <div class="shop-slide">
+                  <div class="shop-slide__signboard">
+                     <div class="shop-slide__signboard-wrapper"><img src="/app/img/slider_img-2.png" alt=""></div>
+                  </div>
+                  <div class="shop-slide__content">
+                     <div class="shop-slide__title">Cowhide <br> Standard Crew</div>
+                     <div class="shop-slide__text">White coloured, short-sleeved, printed T-shirt for men by Levi's.
+                        This
+                        crew-neck T-shirt is made of organic cotton and comes in a regular fit.</div>
+                     <button class="shop-slide__button">BUY NOW</button>
+                  </div>
+               </div>
+               <div class="shop-slide">
+                  <div class="shop-slide__signboard">
+                     <div class="shop-slide__signboard-wrapper"><img src="/app/img/slider_img-3.png" alt=""></div>
+                  </div>
+                  <div class="shop-slide__content">
+                     <div class="shop-slide__title">Cowhide <br> Standard Crew</div>
+                     <div class="shop-slide__text">White coloured, short-sleeved, printed T-shirt for men by Levi's.
+                        This
+                        crew-neck T-shirt is made of organic cotton and comes in a regular fit.</div>
+                     <button class="shop-slide__button">BUY NOW</button>
+                  </div>
+               </div>
+               <div class="shop-slide active">
+                  <div class="shop-slide__signboard">
+                     <div class="shop-slide__signboard-wrapper"><img src="/app/img/slider_img-4.png" alt=""></div>
+                  </div>
+                  <div class="shop-slide__content">
+                     <div class="shop-slide__title">Cowhide <br> Standard Crew</div>
+                     <div class="shop-slide__text">White coloured, short-sleeved, printed T-shirt for men by Levi's.
+                        This
+                        crew-neck T-shirt is made of organic cotton and comes in a regular fit.</div>
+                     <button class="shop-slide__button">BUY NOW</button>
+                  </div>
+               </div>
+               <div class="shop-slide">
+                  <div class="shop-slide__signboard">
+                     <div class="shop-slide__signboard-wrapper"><img src="/app/img/slider_img-5.png" alt=""></div>
+                  </div>
+                  <div class="shop-slide__content">
+                     <div class="shop-slide__title">Cowhide <br> Standard Crew</div>
+                     <div class="shop-slide__text">White coloured, short-sleeved, printed T-shirt for men by Levi's.
+                        This
+                        crew-neck T-shirt is made of organic cotton and comes in a regular fit.</div>
+                     <button class="shop-slide__button">BUY NOW</button>
+                  </div>
+               </div>
+               <div class="shop-slide__points">
+                  <ul class="slider-points">
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li class="active"></li>
+                     <li></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="assortment-wrapper">
+         <div class="container">
+            <div class="spinner-loader"></div>
+            <div class="assortment">
+               <!-- <div class="assortment__product">
+                  <img src="/app/img/assortment_img_2.png" alt="">
+                  <div class="assortment__product-info">
+                     <div class="assortment__product-name">BRANDED sHOE</div>
+                     <div class="assortment__price-area">
+                        <span class="assortment__product-price">300$</span>
+                        <button class="assortment__product-button">BUY NOW</button>
+                     </div>
+                  </div>
+               </div> -->
+            </div>
+         </div>
+      </div>
+
+      <div class="cart-products-wrapper">
+         <div class="cart-products">
+            <div class="total-cart-img"><img src="/app/img/total-cart.png" alt=""></div>
+            <div class="close-cart"><img src="/app/img/close-cart.png" alt="" id="cart-close-icon"></div>
+            <div class="cart-products__items">
+               <div class="cart-products-items-info">
+                  <div class="cart-products__count-items">count</div>
+                  <div class="cart-products__name-items">name</div>
+                  <div class="cart-products__price-items">price</div>
+               </div>
+               <ul class="cart-products__items-list" onselectstart="return false">
+                  <!-- <li class="cart-products__item">
+                     <div class="count-product-self">2</div>
+                     <div class="name-product-self">Bag item</div>
+                     <div class="price-product-self">150$</div>
+                     <div class="up-down-counter-product-self">
+                        <span class="up-counter-product-self material-icons">add</span>
+                        <span class="down-counter-product-self material-icons">remove</span>
+                     </div>
+                  </li> -->
+               </ul>
+               <div class="cart-products__formalization-booking">
+               <div class="formalization-booking__total-sum">Total: <span id="total-sum-cart">300$</span></div>
+               <button class="formalization-booking__button">Buy</button>
+            </div>
+            </div>
+         </div>
+      </div>
+   </main>
+   <footer>
+      <div class="footer__content">
+         <div class="container">
+            <div class="footer__content-row">
+               <div class="footer__links">
+                  <div class="footer__title">FEATURED SALE</div>
+                  <ul class="footer__list">
+                     <li>Alexis Hudson</li>
+                     <li>American Apparel</li>
+                     <li>Ben Sherman</li>
+                     <li>Big Buddha</li>
+                     <li>Chanel</li>
+                     <li>Christian Audigier</li>
+                     <li>Coach</li>
+                     <li>Cole Haan</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer__copyright">
+         <div class="container">
+            <p class="copyright">Copyright © 2013 Css Author</p>
+         </div>
+      </div>
+   </footer>
+
+   
+   <script src="Spinner.js"></script>
+   <script src="deviceTouchCheck.js"></script>
+   <script src="catalog.js"></script>
+   <script src="Slider.js"></script>
+   <script src="Products.js"></script>
+   <script src="LocalStorageUtil.js"></script>
+   <script src="/app/cart/Cart.js"></script>
+   <script src="cartGoods.js"></script>
+   <script src="app.js"></script>
+</body>
+
+</html>

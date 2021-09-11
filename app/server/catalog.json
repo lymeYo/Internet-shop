@@ -1,0 +1,65 @@
+[
+   {
+      "id": "id0",
+      "imgSrc": "/app/img/assortment_img_1.png",
+      "name": "BRANDED SHOES",
+      "discount": 1,
+      "price": 100
+   },
+   {
+      "id": "id1",
+      "imgSrc": "/app/img/assortment_img_2.png",
+      "name": "BRANDED TSHIRTS",
+      "discount": 1,
+      "price": 300
+   },
+   {
+      "id": "id2",
+      "imgSrc": "/app/img/assortment_img_3.png",
+      "name": "BRANDED SHOES",
+      "discount": 1,
+      "price": 250
+   },
+   {
+      "id": "id3",
+      "imgSrc": "/app/img/assortment_img_4.png",
+      "name": "BRANDED SHOE",
+      "discount": 1,
+      "price": 100
+   },
+   {
+      "id": "id4",
+      "imgSrc": "/app/img/assortment_img_5.png",
+      "name": "BRANDED TEES",
+      "discount": 1,
+      "price": 400
+   },
+   {
+      "id": "id5",
+      "imgSrc": "/app/img/assortment_img_6.png",
+      "name": "BRANDED SHOE",
+      "discount": 1,
+      "price": 250
+   },
+   {
+      "id": "id6",
+      "imgSrc": "/app/img/assortment_img_7.png",
+      "name": "BRANDED sHOE",
+      "discount": 1,
+      "price": 300
+   },
+   {
+      "id": "id7",
+      "imgSrc": "/app/img/assortment_img_8.png",
+      "name": "EMS WOMEN BAG",
+      "discount": 1,
+      "price": 400
+   },
+   {
+      "id": "id8",
+      "imgSrc": "/app/img/assortment_img_9.png",
+      "name": "BRANDED CARGOS",
+      "discount": 1,
+      "price": 300
+   }
+]
